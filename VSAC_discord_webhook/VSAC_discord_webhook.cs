@@ -14,6 +14,7 @@ namespace VSAC_discord_webhook
 {
     public static class VSAC_discord_webhook
     {
+        // set Here the payload url of the discord webhook
         static string payload_url = "";
         [FunctionName("VSAC_discord_webhook")]
         public static async Task<IActionResult> Run(
